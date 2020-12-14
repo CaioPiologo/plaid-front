@@ -1,0 +1,13 @@
+const AuthTypes = {
+  LOGIN_REQUEST: '@auth/LOGIN_REQUEST',
+  LOGIN_FAILURE: '@auth/LOGIN_FAILURE',
+  GET_LINK_TOKEN: '@auth/GET_LINK_TOKEN',
+  GET_LINK_SUCCESS: '@auth/GET_LINK_SUCCESS',
+  ACCESS_REQUEST: '@auth/ACCESS_REQUEST',
+  AUTHORIZE: '@auth/AUTHORIZE',
+  UNATHORIZE: '@auth/UNATHORIZE',
+  LOGOUT_REQUEST: '@auth/LOGOUT_REQUEST',
+  LOGOUT: '@auth/LOGOUT',
+};
+
+export default AuthTypes;

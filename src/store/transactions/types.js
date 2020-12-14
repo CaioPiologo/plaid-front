@@ -1,0 +1,7 @@
+const TransactionTypes = {
+  GET_TRANSACTIONS: '@user/GET_TRANSACTIONS',
+  GET_TRANSACTIONS_SUCCESS: '@user/GET_TRANSACTIONS_SUCCESS',
+  GET_TRANSACTIONS_FAILURE: '@user/GET_TRANSACTIONS_FAILURE',
+};
+
+export default TransactionTypes;
