@@ -62,7 +62,7 @@ export function* accessToken(action) {
     } else {
       const accessToken = action.payload;
       setSessionStorage('accessToken', accessToken);
-      yield call(AuthServices.setAccessToken, token);
+      yield call(AuthServices.setAccessToken, { public_token: accessToken });
       yield put({ type: AuthTypes.AUTHORIZE });
     }
   } catch (error) {
